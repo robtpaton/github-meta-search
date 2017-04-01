@@ -1,0 +1,35 @@
+{
+  "name": "github-meta-search",
+  "version": "1.0.0",
+  "description": "search github for code across multiple repos",
+  "main": "index.js",
+  "bin": {
+    "githubmetasearch": "./index.js"
+  },
+  "scripts": {
+    "test": "mocha --recursive test",
+    "lint": "eslint ."
+  },
+  "author": "Rob Paton",
+  "license": "ISC",
+  "dependencies": {
+    "opn": "^4.0.2",
+    "rc": "^1.1.7",
+    "request": "^2.79.0",
+    "request-promise-native": "^1.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-iplayer-es6": "^3.1.0",
+    "eslint-plugin-mocha": "^4.9.0",
+    "mocha": "^3.2.0",
+    "nock": "^9.0.11",
+    "sinon": "^1.17.7"
+  },
+  "eslintConfig": {
+    "extends": "iplayer-es6",
+    "rules": {
+      "no-console": 0
+    }
+  }
+}

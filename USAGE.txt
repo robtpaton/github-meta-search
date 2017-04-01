@@ -1,0 +1,11 @@
+
+Usage: github-meta-search [options] [code-query]
+
+search github for code across multiple repos')
+
+options:
+  -h, --help                 output usage information
+  -r, --repo-query [query]   the query used to filter repositories (e.g. topic:sometopic)
+
+options can also be specified in a configuration file:
+  https://www.npmjs.com/package/rc#standards
