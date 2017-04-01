@@ -20,6 +20,12 @@ The `rc` package is used for config loading, and it supports many different meth
 
 ## Usage
 
+To see usage information:
+
+```shell
+$ githubmetasearch --help
+```
+
 To search all repos with the topic `node` for the code `button`:
 
 ```shell
