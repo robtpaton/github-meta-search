@@ -1,6 +1,6 @@
 # github-meta-search
 
-> Node CLI tool for searching across multiple github repositories
+> Node CLI tool for searching for code across matching github repositories
 
 Currently Github search does not allow for queries like "search repos with label X for code Y". This tool uses the Github API to bridge this gap.
 

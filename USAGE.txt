@@ -1,7 +1,7 @@
 
 Usage: github-meta-search [options] [code-query]
 
-search github for code across multiple repos
+search for code across matching github repos
 
 options:
   -h, --help                 output usage information
