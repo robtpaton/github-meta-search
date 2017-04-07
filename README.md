@@ -12,7 +12,7 @@ npm install -g github-meta-search
 
 ## Configuration
 
-Before using the tool you will need to create a Github access token (using the Github web interface), and store it in a `.githubmetasearchrc` configuration file.
+Before using the tool you will need to create a Github access token (using the [Github web interface](https://github.com/settings/tokens/new?scopes=repo&description=githubmetasearch)), and store it in a `.githubmetasearchrc` configuration file in your home directory.
 
 An example configuration file has been provided in [.githubmetasearchrc.example](.githubmetasearchrc.example).
 
